@@ -1,0 +1,67 @@
+footer {
+  background-color: #a9adfc;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.div-rodape {
+  display: flex;
+  height: 34vh;
+  padding: 0 50px;
+  justify-content: space-between;
+}
+
+.div-rodape p,
+.div-rodape a {
+  text-decoration: none;
+  color: #000;
+  margin: 0.5rem 0;
+}
+
+.div-rodape p {
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.div-rodape a {
+    font-size: 1.2rem;
+}
+
+.div-rodape-contato,
+.div-rodape-evento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20%;
+}
+
+.div-rodape-img {
+    display: flex;
+    align-items: center;
+}
+
+.div-rodape img {
+    width: 400px;
+    height: 120px;
+}
+
+/* Copyright */
+.div-copyright {
+  height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1048ae;
+  padding: 0.2%;
+}
+
+.div-copyright span {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.2px;
+  color: #fff;
+}
