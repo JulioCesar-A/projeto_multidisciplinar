@@ -3,6 +3,7 @@ import Cabecalho from "./components/cabecalho/Cabecalho.jsx";
 import Rodape from "./components/rodape/Rodape.jsx";
 import SecaoInicial from "./components/secao_inicial/SecaoInicial.jsx";
 import SecaoSobre from "./components/secao_sobre/SecaoSobre.jsx";
+import SecaoComoFunciona from "./components/secao_como_funciona/SecaoComoFunciona.jsx";
 
 import "./App.css";
 
@@ -12,6 +13,7 @@ function App() {
       <Cabecalho></Cabecalho>
       <SecaoInicial></SecaoInicial>
       <SecaoSobre></SecaoSobre>
+      <SecaoComoFunciona></SecaoComoFunciona>
       <Rodape></Rodape>
     </>
   );

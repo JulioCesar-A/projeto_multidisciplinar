@@ -1,0 +1,30 @@
+.div-como-funciona {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.div-como-funciona h2 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.div-como-funciona div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div-como-funciona .texto {
+    width: 25%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+.div-como-funciona .seta {
+    font-size: 3rem;
+}
