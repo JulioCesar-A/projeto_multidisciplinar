@@ -1,0 +1,21 @@
+.div-secao-sobre {
+    width: 100%;
+}
+
+.div-secao-sobre .div-imagem {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.div-secao-sobre img {
+    width: 400px;
+    height: 120px;
+}
+
+.div-secao-sobre p {
+    padding: 0 50px;
+    text-align: justify;
+    font-size: 1.5rem;
+    padding-bottom: 50px;
+}
