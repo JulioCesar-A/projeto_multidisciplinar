@@ -1,24 +1,27 @@
+// Router
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/home/Home.jsx";
 
+// CSS
+import "./App.css";
 
 // Componentes
 import Cabecalho from "./components/cabecalho/Cabecalho.jsx";
-import SecaoInicial from "./components/secao_inicial/SecaoInicial.jsx";
-import SecaoSobre from "./components/secao_sobre/SecaoSobre.jsx";
-import SecaoComoFunciona from "./components/secao_como_funciona/SecaoComoFunciona.jsx";
-import SecaoCadastrarLocal from "./components/secao_cadastrar_local/SecaoCadastrarLocal.jsx";
-import Rodape from "./components/rodape/Rodape.jsx";
 
-import "./App.css";
+import Rodape from "./components/rodape/Rodape.jsx";
+import Formulario from "./pages/formulario/Formulario.jsx";
 
 function App() {
   return (
     <>
+      <BrowserRouter>
         <Cabecalho />
-          <SecaoInicial></SecaoInicial>
-          <SecaoSobre></SecaoSobre>
-          <SecaoComoFunciona></SecaoComoFunciona>
-          <SecaoCadastrarLocal></SecaoCadastrarLocal>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login-ou-cadastro" element={<Formulario />} />
+        </Routes>
         <Rodape />
+      </BrowserRouter>
     </>
   );
 }

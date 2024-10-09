@@ -1,0 +1,76 @@
+.form-container {
+  display: flex;
+}
+
+.form-container .form-login {
+  background-color: #1048AE;
+  display: flex;
+  justify-content: center;
+  color: #000;
+}
+
+.form-container .form-cadastro {
+    background-color: #21365c;
+    display: flex;
+}
+
+.form-container .form-login,
+.form-container .form-cadastro {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 30px;
+  align-items: center;
+  color: #fff;
+}
+
+.form-cadastro .div-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 70%;
+  height: 5vh;
+  margin: 5px 0;
+  outline: none;
+  padding-left: 10px;
+}
+
+.div-aceita-termos {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.div-aceita-termos input[type="checkbox"] {
+    scale: 0.5;
+}
+
+.div-aceita-termos label {
+    width: 100%;
+    text-align: left;
+}
+
+.div-form-botao {
+    display: flex;
+}
+
+button[type="submit"] {
+  padding: 1rem 2rem;
+  background-color: #E4150E;
+  height: 8vh;
+  margin-bottom: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
