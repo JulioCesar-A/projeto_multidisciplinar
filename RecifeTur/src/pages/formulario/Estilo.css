@@ -51,12 +51,13 @@ input {
 }
 
 .div-aceita-termos input[type="checkbox"] {
-    scale: 0.5;
+    width: 20px;
+    margin-right: 10px;
 }
 
 .div-aceita-termos label {
     width: 100%;
-    text-align: left;
+    text-align: justify;
 }
 
 .div-form-botao {
