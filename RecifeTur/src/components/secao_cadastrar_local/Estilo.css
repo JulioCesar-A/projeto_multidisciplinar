@@ -45,3 +45,12 @@
         margin-bottom: 10px;
         cursor: pointer;
 }
+
+/* HOVER */
+
+.div-cadastrar-local button:hover {
+    background-color: #F9ED0D;
+    color: #000;
+    transition: 300ms;
+    scale: 1.05;
+}

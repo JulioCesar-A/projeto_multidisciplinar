@@ -27,6 +27,7 @@ header nav .menu-navegacao {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.8rem;
+  cursor: pointer;
 }
 
 header nav div {
@@ -55,4 +56,11 @@ header div .div-login-cadastro {
 header div #icone-login-cadastro {
   width: 50px;
   height: 60px;
+}
+
+/* HOVER */
+
+header nav .menu-navegacao:hover,
+header nav div a:hover {
+  text-decoration: underline;
 }

@@ -5,7 +5,7 @@ function Rodape() {
   return (
     <>
       <footer>
-        <div className="div-rodape">
+        <div className="div-rodape" id="div-rodape">
           <div className="div-rodape-contato">
             <p>CONTATO</p>
 

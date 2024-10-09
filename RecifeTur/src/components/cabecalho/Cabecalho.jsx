@@ -1,5 +1,6 @@
 // CSS
 import "./Estilo.css";
+import { Link } from "react-scroll";
 
 // Imagens
 import Logo from "../../assets/img/recifeTur.png";
@@ -11,9 +12,15 @@ const Cabecalho = () => {
       <header>
         <img src={Logo} alt="Logo da RecifeTur" id="logo" />
         <nav>
-          <a href="#" className="menu-navegacao">Sobre</a>
-          <a href="#" className="menu-navegacao">Contato</a>
-          <a href="#" className="menu-navegacao">Eventos</a>
+          <Link to="div-secao-sobre" smooth={true} duration={500} className="menu-navegacao">
+            Sobre
+          </Link>
+          <Link to="div-rodape" smooth={true} duration={600} className="menu-navegacao">
+            Contato
+          </Link>
+          <Link to="div-rodape" smooth={true} duration={600} className="menu-navegacao">
+            Eventos
+          </Link>
           <div>
             <div className="div-login-cadastro">
               <img src={User} alt="Ícone do login/cadastro" id="icone-login-cadastro" />

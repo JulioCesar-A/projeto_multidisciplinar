@@ -3,7 +3,7 @@ import Logo from "../../assets/img/recifeTur.png";
 
 function SecaoSobre() {
   return (
-    <div className="div-secao-sobre">
+    <div className="div-secao-sobre" id="div-secao-sobre">
       <div className="div-imagem">
         <img src={Logo} alt="Logo do RecifeTur" />
       </div>
