@@ -1,0 +1,66 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 22vh;
+  background-color: #a9adfc;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+header #logo {
+  width: 200px;
+  height: 60px;
+}
+
+header nav {
+  display: flex;
+  width: 60%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav .menu-navegacao {
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+header nav div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+header nav div a {
+    width: 50%;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: none;
+    color: #000;
+    text-decoration: none;
+}
+
+header div .div-login-cadastro {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+header div #icone-login-cadastro {
+  width: 50px;
+  height: 60px;
+}
+
+/* HOVER */
+
+header nav .menu-navegacao:hover,
+header nav div a:hover {
+  text-decoration: underline;
+}
